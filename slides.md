@@ -19,7 +19,12 @@ layout: center
 By Ahmed Ashraf
 
 <div class="m-6 flex flex-col justify-center items-center gap-2">
-<span>Frontend Engineer <a href="href="mailto:ahmed@aashrafh.me" target="_blank"" target="_blank">@Blink22</a></span>
+  <span>
+    <span>
+      Frontend Engineer
+    </span> 
+    <a href="https://blink22.com/" target="_blank">@Blink22</a>
+  </span>
   <a href="mailto:ahmed@aashrafh.me" target="_blank">ahmed@aashrafh.me</a>
   <div>
   <a href="https://www.linkedin.com/in/aashrafh/" target="_blank" alt="LinkedIn"
@@ -43,22 +48,17 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# What is The Course Experience?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+This is a brief summary of my experience authoring the [Building Full-Stack Web Applications With Node.js and React](https://www.educative.io/courses/building-full-stack-web-applications-with-node-js-and-react) course at [Educative.io](https://www.educative.io/)
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- 📝 **Educative Author** - applied at Educative.io as an author without a specific idea in mind
+- 👩 **Author Acquisition** - got contacted by a representative to align their needs and my skills
+- 👨‍💻 **Work Inspiration** - an ML project and one of its core functionalities depends on uploading a file
+- 📁 **Upload File** - a good example of full-stack apps that can be considered as a helicopter view
 
 <br>
 <br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -75,11 +75,20 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
 </style>
 
 <!--
-Here is another comment.
--->
+- I applied to Eucative author with nothing in mind, I just applied because I love to share what I know with others and, honestly, I didn't expect to get accepted especially that I had no experience in content creation before
+
+- Got contacted by them and knew that they need more Nodejs content based on my skills but, of course, you may introduce other types of content
+
+- I was working on a ML project that one of its core functionalities depends on uploading a file
+
+- Decided that this is a good example to build upon something that introduces beginners to fullstack development
+
+- Educative is a text-based, interactive courses for software developers, so, why text-based?
+  -->
 
 ---
 
