@@ -92,6 +92,37 @@ h1 {
 
 ---
 
+# Why a Text-Based Online Course?
+
+A learner usually needs a combination of hands-on practice, multiple real-world examples, mixed media experience, and control over pace and content.
+
+- ⏱️ Little to no control over the content and the pace of content consuming
+
+- 📺 Watching a video requires less cognitive function, i.e. passive learning
+
+- 📝 Highlight important ideas is difficult to handle
+
+- 🔍 Skimming through a video to find answers to questions
+
+<!--
+- There is a notable difference between these approaches, and studies show that they trigger different parts of the brain.
+
+- So, if the content does not differ between a video or a text-based course, how do we know what is best for learning software development online?
+
+- A learner usually needs a combination of hand-on practice, multiple real-world examples, mixed media experience, and control over pace and content.
+
+- Personally, I prefer text-based content over video-based one because video-based imposes many challenges on learners
+
+- Video-based courses can be an excellent supplement to other forms of e-learning, but in my experience, they only impart surface-level knowledge on their own.
+
+- Overall, you get more real-world practice, specialized control over how you learn, and a personalized your learning experience without scrubbing or rewinding.
+
+- I was fascinated by the quality, comprehensive analysis, and convenience of Educative’s online courses.
+
+-->
+
+---
+
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
