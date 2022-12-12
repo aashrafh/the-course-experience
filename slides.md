@@ -123,318 +123,166 @@ A learner usually needs a combination of hands-on practice, multiple real-world 
 
 ---
 
-# Navigation
+# Are We Done? 🤔
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+An appealing idea, an approved roadmap, and a signed contract doesn’t mean it will translate into a great content because crafting the content and making it digestible is a demanding task with a challenging learning curve for first-timers
 
-### Keyboard Shortcuts
-
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
-
----
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  role: string;
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id);
-  const newUser = { ...user, ...update };
-  saveUser(id, newUser);
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
+<div class="w-full flex justify-center">
+  <img
+    class="absolute -bottom-9 -left-7 w-80 opacity-50"
+    src="/assets/images/puzzle.png"
+  />
 </div>
 
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
+- For example, I struggled with the visual design components of the course, especially when modeling sketches for my lessons in order to ensure compliance with Educative’s high standards.
 
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
+- It's important to have some kind of feedback from trusted people especially at the beginning of your technical writing journey to review to make sure you are on the right track. In my case, the Educative team empowered me to achieve superior performance and gave me all the support required to override any issues that surfaced.
+ -->
+
+---
+
+# Where Do Ideas Come From?
+
+<div class="w-full flex">
+  <div class="w-1/2">
+
+• Find a problem that bothers you. As an engineer, our day-to-day life should be full of questions
+
+• If you got stuck, there is a high chance that you don’t master this topic yet
+
+• You don't have to be the first one. The truth is that all ideas are really mashups of existing ideas [🔗](https://dev.to/andyhaskell/perfectionism-as-a-content-creator-and-what-i-do-about-it-3ika)
+
+• Be careful about the illusion of knowledge, i.e. Dunning-Kruger Effect
+
+<p v-click="2">🎯 Stay open to inspiration; Software engineers do this by tinkering with new frameworks and languages. Product managers might try new organization tools. Designers might have conversations with artists for inspiration.</p>
+
+  </div>
+  <div class="w-1/2">
+    <img
+      v-click="1"
+      class=""
+      src="/assets/images/dunning.webp"
+    />
+  </div>
 </div>
+
+<!--
+
+- The reason to find a problem close to you is that you know what is the core of this problem that you and other people like you want to get solved.
+
+- You will show full empathy for your audience.
+
+- Telling people how things work either in speaking or writing is a great way to improve your knowledge on certain topics.
+
+- Dunning-Kruger Effect: A little bit of knowledge is a dangerous thing. When you are learning a completely new thing, you will get excited and have a lot of questions. Don’t rush into writing because you are likely standing at the “Peak of MT Stupid”. When you are there, your output tends to be superficial. In my opinion, the ideal position for writing is “Valley of Despair” or “Slope of Enlightenment” because it helps you reach the “Plateau of Sustainability”.
+
 -->
 
 ---
 
-## class: px-20
+# Be Clear About Your Target Group
 
-# Themes
+<div class="w-full flex">
+  <div class="w-1/2">
+  • Have a clear and succinct headline so learners will have some sort of expectations
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+• Answer your learners questions before the end of of the article, vidoe, or chapter
 
-<div grid="~ cols-2 gap-2" m="-t-2">
+• Be comprehensive for all experience levels, i.e. fulfill the learner need with as clear and detailed information as possible without making assumptions about the reader’s background knowledge
 
-```yaml
----
-theme: default
----
-```
+• Make a good story, don't make it too technical; What is the problem? Why is it a problem for us? How can we solve it? Could you give some examples to support your statement? What is the advice for learners?
 
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-
-## preload: false
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div v-motion :initial="{ x: -80 }" :enter="{ x: 0 }">Slidev</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
   </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+  
+  <div class="w-1/2 flex flex-col items-end">
+    <div class="flex flex-row-reverse">
+      <ol class="toc-list" role="list" v-click>
+        <li>
+          <a href="#">
+              <span class="title">1. What's is MERN?</span>
+          </a>
+          <ol>
+            <li>
+              <a href="#">
+                  <span class="title">MongoDB</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <span class="title">Express</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <span class="title">React</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                  <span class="title">Nodejs</span>
+              </a>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <a href="#">
+              <span class="title">2. What's Heroku?</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+              <span class="title">3. Why deploy MERN app to Heroku?</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+              <span class="title">4. How to deply a MERN app to Heroku?</span>
+          </a>
+          <ol>
+            <li>
+              <a href="#">
+                <span>How do you prepare a MERN app for Heroku?</span>
+            </a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <p v-click>🎯 Good technical content is correct and uses industry-standard terms without overwhelming new learners</p>
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
+<style>
+  .toc-list, .toc-list ol {
+    list-style-type: none;
   }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
+  .toc-list {
+    padding: 0;
   }
-  frame "Foo" {
-    [Frame 4]
+
+  .toc-list ol {
+    padding-inline-start: 2ch;
   }
-}
 
+</style>
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+<!--
 
-@enduml
-```
+- Different people surfing your technical content
+  - through brwosing social media and get attracted by the headline. They open the page, read the introduction and quickly scroll the page to see if anything is interesting.
 
-</div>
+- When they have expectations, they fall into the second group.
 
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
+- Another type of learners is the people who intention. They may googled about your course topic.
 
----
+- These details give readers the information they need to grow their skills.
 
-src: ./pages/multiple-entries.md
-hide: false
+- You don't expect the user knowledge so you will be surprised by simple questionst they ask.
 
----
+- While the focus of the article is on deploying a MERN application to Heroku, I’d probably devote 2-3 paragraphs explaining the basic terminology.
 
----
+- Then, I’d link readers to more comprehensive resources (like the documentation) to let them explore these topics in more detail.
 
-layout: center
-class: text-center
-
----
-
-# Learn More
-
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+- This might seem like overkill, but an experienced reader will simply use the headers to skip down to the portion of the technical content they need.
+-->
