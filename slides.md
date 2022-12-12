@@ -395,3 +395,64 @@ An appealing idea, an approved roadmap, and a signed contract doesn’t mean it 
 </div>
 
 ---
+
+<div class="w-full flex gap-4">
+  <div class="w-1/2">
+
+  <h1>Provide Code Snippets</h1>
+
+• **Break them down into digestible chunks**. Don’t provide 80 lines of code and then tell your reader to copy and paste it
+
+• **Format your code correctly**. Code that isn’t formatted correctly is difficult to read and, therefore, difficult to understand
+
+• **Don’t forget about file structure**. This usually only applies to large projects, especially when working with React.
+
+  </div>
+  <div class="w-1/2" v-click>
+
+```js
+// backend/controllers/file.js
+
+// ...rest of the code
+
+exports.deleteFile = async (req, res) => {
+  try {
+    const { _id } = req.params;
+    const file = await File.findOne({
+      _id,
+    });
+
+    if (!file) {
+      return res.status(404).send("The requested file does not exist");
+    }
+
+    await File.remove({
+      _id,
+    });
+
+    res.status(200).json({ message: "File deleted successfully" });
+  } catch (err) {
+    console.log(err);
+    return res.status(500).send(err.message);
+  }
+};
+```
+
+</div>
+</div>
+
+<!--
+
+- It’s always helpful to provide unique code, dependencies, and configuration files that are required. You can provide a link to your completed project on GitHub if you want, but you’ll need to be selective about what code you include in the content itself.
+
+- A few things to keep in mind as you include code samples:
+
+- Better to choose smaller sections of code that are more digestible, making sure to explain what each line does.
+
+- Find a style guide for the language you’re working in and make sure your code sticks to the standards agreed upon by the community.
+
+- In these frameworks, the location of your files can affect how and if it runs. It’s sometimes helpful to provide the file name and path at the top of the code snippet in the form of a comment.
+
+-->
+
+---
