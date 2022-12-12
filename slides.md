@@ -347,3 +347,51 @@ An appealing idea, an approved roadmap, and a signed contract doesn’t mean it 
 -->
 
 ---
+
+<div class="flex w-full gap-4 relative">
+  <div class="w-1/2">
+
+  <h1>Prove Your Point</h1>
+  
+• **Research**: a lot of people don’t verify the research they use very carefully which leads to a lot of technical content backed up by dubious claims taken out of context
+
+• **Examples**: it is always good to show people what you are saying is something tangible, not rocket science. You can use your personal experience or illustrations.
+
+  </div>
+  <div class="w-1/2" v-click="1">
+    <h1>Illustrations</h1>
+
+• A graph doesn’t only say thousands of words but also creates a mental model for the learner.
+
+• Abstract information can more easily be conveyed through visuals, whether a diagram, infographics, screen capture, GIF, etc.
+
+• Visuals can present abstract information more concrete, portraying a process that would otherwise take many words to communicate.
+
+  </div>
+</div>
+
+<!--
+
+- "Good technical writing articles must be correct, so I pretend that my readers are all ornery skeptics hoping to poke holes in every statement I make."
+
+- Research - Academic research typically has the highest bar, but business surveys or secondary research are sufficient for most informal technical content.
+
+- Examples - People really like stories. While this can get naive readers into trouble, it’s helpful ammunition for writers. Personal experience or relevant anecdotes also help strengthen your claims. ==> React example.
+
+- It helps to instruct your users visually instead of explaining an idea using just words, which may be inadequate or ambiguous.
+
+-->
+
+---
+
+<img src="/assets/images/directory.png"/>
+
+<div class="flex gap-4 justify-center pt-6" v-click>
+
+• [Canva](https://www.canva.com/)
+
+• [Draw.io](https://app.diagrams.net/)
+
+</div>
+
+---
