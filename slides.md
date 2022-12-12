@@ -286,3 +286,64 @@ An appealing idea, an approved roadmap, and a signed contract doesn’t mean it 
 
 - This might seem like overkill, but an experienced reader will simply use the headers to skip down to the portion of the technical content they need.
 -->
+
+---
+
+<div class="bg-dots h-full w-full" v-click="2"></div>
+
+<div class="flex w-full gap-4 relative">
+  <div class="w-1/2">
+
+  <h1>Consistency</h1>
+  
+• The key to getting better at anything is to do it consistently, even if you’re not very good at first
+
+• Your work on the course will be a side work so you need to Block Time for it
+
+• If you're not consistent, it’s way too easy to fall into the trap of endlessly checking email, or scrolling through your Facebook feed
+
+  </div>
+  <div class="w-1/2" v-click="1">
+    <h1>Organization</h1>
+
+• You want to give new learners the ability to build up to difficult topics while giving experienced learners the ability to skip to the parts they care about
+
+• Start everything with coding and outlining. Starting from an outline speeds up the writing process dramatically
+
+• Having any organization method like Chronological, Importance, Problem and Solution, or Roundups will make your content better than most
+
+  </div>
+</div>
+
+<style>
+  .bg-dots{
+    background-image: url("/assets/images/dots.jpg");
+    background-color: #fff;
+    background-size: cover;
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+  }
+</style>
+
+<!--
+
+- I was blocking my entire Friday and Saturday off for it. Don’t let it overwhelm you. The most important part is to start.
+
+
+- Organization is a key important part in the course ceation process. You’re trying to deliver a topic to a diverse audience so  The only way to serve such diverse learners is to invest time in organizing.
+
+- The outlining phase is where you prioritize ideas, identify weaknesses in your knowledge, and crystalize your main points.
+
+- With a well-thought-out outline, writing becomes the mere act of connecting the dots. Without one, it’s an unintelligible mess.
+
+- You should create the demo application and outline the steps before you start writing the rest of the content.
+
+- If you do it this way, you’ll find the writing part is very quick.
+
+- Methods: Chronological, Importance, Problem and Solution, and Roundups.
+
+- Personally, I prefer the problem and solution method and fallback to Importance if it didn't work but, just having any system will make your content better than most.
+
+-->
+
+---
