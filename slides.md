@@ -456,3 +456,69 @@ exports.deleteFile = async (req, res) => {
 -->
 
 ---
+
+<div class="flex w-full gap-4 relative">
+  <div class="w-1/2">
+
+  <h1>Plagiarism</h1>
+  <br>
+  
+• A well-written sentence in the midst of an otherwise poorly written article
+
+• A paragraph with a suddenly different tone/voice
+
+• Points or sentences that seem to contradict each other
+
+• You can user [Prepost SEO](https://www.duplichecker.com/) and [Duplichecker](https://www.prepostseo.com/plagiarism-checker) for basic plagiarism checking
+
+  </div>
+  <div class="w-1/2" v-click="1">
+    <h1>Self-Editing</h1>
+    <br>
+
+• Wait a few hours, then read/watch it again. This helps you catch logical omissions and poor organization
+
+• Waiting a few hours helps you get a fresh perspective that I couldn't get right away
+
+• Run it through [Grammarly](https://app.grammarly.com/) to catch little details, misspellings, and wordy sentences
+
+  </div>
+</div>
+
+<!--
+- Contradict: this can also be a sign that an author may not quite have the knowledge base they need or didn’t do careful enough research
+
+- Good content creators do at least a little bit of self-editing.
+
+- Grammerly can indicate other stuff like plagiarism, impression.
+ -->
+
+---
+
+# Don’t Expect to Be Very Good
+
+Software engineers who are new at writing get frustrated easily because they know what they want to say but lack the language, typing speed, or organization skills to write about it well. Just remember that everyone starts out as a beginner, and you can’t create skills overnight
+
+<div class="flex justify-center mt-32" v-click>
+
+You can use this [form](https://forms.gle/XBJAd24VuT7pmqkv8) for a referral to the [Educative Author](https://learn.educative.io/become-an-educative-author) program.
+
+</div>
+
+<!--
+
+- Some were simple formatting issues, but many were structural.
+
+- I had to go back and rewrite large chunks of the piece to get it right.
+
+- If you aren’t ready to submit work to an editor yet, you can always enlist a friend for help.
+
+- Even non-technical editors can help you improve your technical content writing.
+
+-  Publishing content of value, like high-quality articles and interactive courses, enabled me to grow my personal brand in ways I could never have imagined.
+
+- If you are an aspiring technical writer or designer, do your research and don’t lose sight.
+
+- I highly recommend Educative as a great place to make your vision a reality.
+
+-->
