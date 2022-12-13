@@ -495,6 +495,56 @@ exports.deleteFile = async (req, res) => {
 
 ---
 
+# Benefits
+
+<div v-click="1">
+
+💸 **Compensation** - the Educative team calculates a level of effort for the course and shares an offer with you
+
+<ul class="payments" v-click="2">
+
+- Rough Draft 25% Complete = 25% payment
+- Rough Draft 100% Complete = 25% payment
+- Course "Ready for Launch" = 50% payment
+</ul>
+
+</div>
+
+<div v-click="3">
+
+✔️ **Early Completion Bonus** - you will get compensated an additional 10% of the compensation if the course is marked as 'Ready for Launch' at least one day prior to original date
+
+</div>
+
+<div v-click="4">
+
+🌴 **Passive Income** - you will be compensated 5% of course revenues monthly for the lifetime of the course
+
+</div>
+
+<div v-click="5">
+
+🔊 **Referral** - you will be paid a referral fee and after the course launch, Educative will express their thanks to you with a fair bonus
+
+</div>
+
+<p v-click="6">
+
+🎯 Developing an online course brings you closer to your passion, and leads to new opportunities. It's an opportunity to increase your productivity, creativity, and ability to cope with changes by stepping out of your comfort zone. It's also a chance to collaborate across teams of different cultures, perspectives, and expertise.
+
+</p>
+
+<style>
+.payments{
+  padding-left: 2rem;
+}
+.payments li:before {
+  content: "• "
+}
+</style>
+
+---
+
 # Don’t Expect to Be Very Good
 
 Software engineers who are new at writing get frustrated easily because they know what they want to say but lack the language, typing speed, or organization skills to write about it well. Just remember that everyone starts out as a beginner, and you can’t create skills overnight
