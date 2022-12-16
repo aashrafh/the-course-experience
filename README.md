@@ -1,4 +1,4 @@
-# The Course Experience!
+# The Course Experience
 
 To start the slide show:
 
